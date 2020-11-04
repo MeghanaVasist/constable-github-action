@@ -8,7 +8,7 @@
 
   <a href="https://github.com/dangoslen/constable-github-action/actions"><img alt="constable-github-action-status" src="https://github.com/dangoslen/constable-github-action/workflows/units-test/badge.svg"></a>
   <img alt="constable-github-action-coverage" src="./assets/coverage-badge.svg">
-  <img src="https://zenodo.org/badge/291103669.svg" alt="DOI" />
+  [![DOI](https://zenodo.org/badge/302082206.svg)](https://zenodo.org/badge/latestdoi/302082206)
   <img src="https://img.shields.io/badge/Constable-A+-green" />
   
   [![Watch the video](https://github.com/MeghanaVasist/constable-github-action/blob/main/assets/video_thumbnail.png)](https://youtu.be/kizuzz0sTdM)
