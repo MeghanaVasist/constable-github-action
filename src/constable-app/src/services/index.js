@@ -1,2 +1,2 @@
-import getRepositoryDetails from './repository';
+import { getRepositoryDetails, calculateGrade } from './repository';
 export { getRepositoryDetails }

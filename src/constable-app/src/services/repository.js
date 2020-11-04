@@ -65,7 +65,7 @@ const getRepositoryDetails = async (owner, repository) => {
     owner: owner,
     repo: repository
   });
-  
+
   const pull_req = await request('GET /repos/:owner/:repo/pulls', {
     owner: owner,
     repo: repository
@@ -113,12 +113,12 @@ const getRepositoryDetails = async (owner, repository) => {
   });
 
   files.forEach(file => {
-    var check = file.toUpperCase()    
-    reqTempFiles.forEach( template => {
+    var check = file.toUpperCase()
+    reqTempFiles.forEach(template => {
       const loc = reqTempFiles.indexOf(template)
       if (check.includes(template)) {
         gradeData[reqFiles[loc]]['score'] = fileWeights[loc]
-      }  
+      }
     })
   });
 
@@ -176,4 +176,4 @@ const getRepositoryDetails = async (owner, repository) => {
 
 }
 
-export default getRepositoryDetails;
+export { getRepositoryDetails, calculateGrade };
